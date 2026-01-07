@@ -1,0 +1,23 @@
+running egg_info
+writing build/IRC_ROVER/IRC_ROVER.egg-info/PKG-INFO
+writing dependency_links to build/IRC_ROVER/IRC_ROVER.egg-info/dependency_links.txt
+writing entry points to build/IRC_ROVER/IRC_ROVER.egg-info/entry_points.txt
+writing requirements to build/IRC_ROVER/IRC_ROVER.egg-info/requires.txt
+writing top-level names to build/IRC_ROVER/IRC_ROVER.egg-info/top_level.txt
+reading manifest file 'build/IRC_ROVER/IRC_ROVER.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'build/IRC_ROVER/IRC_ROVER.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/share/IRC_ROVER/launch
+copying launch/realsense_rtabmap.launch.py -> /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/share/IRC_ROVER/launch
+running install_egg_info
+removing '/home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/IRC_ROVER-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/IRC_ROVER/IRC_ROVER.egg-info to /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/IRC_ROVER-0.0.0-py3.10.egg-info
+running install_scripts
+Installing exploration_node script to /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/IRC_ROVER
+Installing vision_node script to /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/IRC_ROVER
+writing list of installed files to '/home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/install.log'

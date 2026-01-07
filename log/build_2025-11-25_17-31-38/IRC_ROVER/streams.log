@@ -1,0 +1,25 @@
+[0.824s] Invoking command in '/home/shubh/ros2_ws/src/irc_rover': PYTHONPATH=/home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/IRC_ROVER build --build-base /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build install --record /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/install.log --single-version-externally-managed install_data
+[1.132s] running egg_info
+[1.133s] writing build/IRC_ROVER/IRC_ROVER.egg-info/PKG-INFO
+[1.133s] writing dependency_links to build/IRC_ROVER/IRC_ROVER.egg-info/dependency_links.txt
+[1.133s] writing entry points to build/IRC_ROVER/IRC_ROVER.egg-info/entry_points.txt
+[1.134s] writing requirements to build/IRC_ROVER/IRC_ROVER.egg-info/requires.txt
+[1.134s] writing top-level names to build/IRC_ROVER/IRC_ROVER.egg-info/top_level.txt
+[1.136s] reading manifest file 'build/IRC_ROVER/IRC_ROVER.egg-info/SOURCES.txt'
+[1.137s] adding license file 'LICENSE'
+[1.137s] writing manifest file 'build/IRC_ROVER/IRC_ROVER.egg-info/SOURCES.txt'
+[1.138s] running build
+[1.138s] running build_py
+[1.139s] running install
+[1.139s] running install_lib
+[1.141s] running install_data
+[1.141s] creating /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/share/IRC_ROVER/launch
+[1.142s] copying launch/realsense_rtabmap.launch.py -> /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/share/IRC_ROVER/launch
+[1.142s] running install_egg_info
+[1.144s] removing '/home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/IRC_ROVER-0.0.0-py3.10.egg-info' (and everything under it)
+[1.144s] Copying build/IRC_ROVER/IRC_ROVER.egg-info to /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/IRC_ROVER-0.0.0-py3.10.egg-info
+[1.145s] running install_scripts
+[1.169s] Installing exploration_node script to /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/IRC_ROVER
+[1.169s] Installing vision_node script to /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/IRC_ROVER
+[1.170s] writing list of installed files to '/home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/install.log'
+[1.209s] Invoked command in '/home/shubh/ros2_ws/src/irc_rover' returned '0': PYTHONPATH=/home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/IRC_ROVER build --build-base /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build install --record /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/install.log --single-version-externally-managed install_data

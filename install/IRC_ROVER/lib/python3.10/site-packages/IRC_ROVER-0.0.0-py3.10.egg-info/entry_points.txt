@@ -1,0 +1,4 @@
+[console_scripts]
+exploration_node = irc_rover.navigation.exploration_node:main
+vision_node = irc_rover.navigation.vision_node:main
+

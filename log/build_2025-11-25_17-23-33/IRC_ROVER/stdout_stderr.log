@@ -1,0 +1,66 @@
+running egg_info
+creating build/IRC_ROVER/IRC_ROVER.egg-info
+writing build/IRC_ROVER/IRC_ROVER.egg-info/PKG-INFO
+writing dependency_links to build/IRC_ROVER/IRC_ROVER.egg-info/dependency_links.txt
+writing entry points to build/IRC_ROVER/IRC_ROVER.egg-info/entry_points.txt
+writing requirements to build/IRC_ROVER/IRC_ROVER.egg-info/requires.txt
+writing top-level names to build/IRC_ROVER/IRC_ROVER.egg-info/top_level.txt
+writing manifest file 'build/IRC_ROVER/IRC_ROVER.egg-info/SOURCES.txt'
+reading manifest file 'build/IRC_ROVER/IRC_ROVER.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'build/IRC_ROVER/IRC_ROVER.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build
+creating /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib
+creating /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover
+copying irc_rover/__init__.py -> /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover
+creating /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/control
+copying irc_rover/control/drive_control_node.py -> /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/control
+copying irc_rover/control/__init__.py -> /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/control
+creating /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/gui
+copying irc_rover/gui/__init__.py -> /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/gui
+copying irc_rover/gui/base_station_gui.py -> /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/gui
+creating /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/navigation
+copying irc_rover/navigation/vision_node.py -> /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/navigation
+copying irc_rover/navigation/__init__.py -> /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/navigation
+copying irc_rover/navigation/exploration_node.py -> /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/navigation
+creating /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/sensors
+copying irc_rover/sensors/__init__.py -> /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/sensors
+running install
+running install_lib
+creating /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover
+creating /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/control
+copying /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/control/drive_control_node.py -> /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/control
+copying /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/control/__init__.py -> /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/control
+creating /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/gui
+copying /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/gui/__init__.py -> /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/gui
+copying /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/gui/base_station_gui.py -> /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/gui
+copying /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/__init__.py -> /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover
+creating /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/navigation
+copying /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/navigation/vision_node.py -> /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/navigation
+copying /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/navigation/__init__.py -> /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/navigation
+copying /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/navigation/exploration_node.py -> /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/navigation
+creating /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/sensors
+copying /home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/build/lib/irc_rover/sensors/__init__.py -> /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/sensors
+byte-compiling /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/control/drive_control_node.py to drive_control_node.cpython-310.pyc
+byte-compiling /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/gui/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/gui/base_station_gui.py to base_station_gui.cpython-310.pyc
+byte-compiling /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/navigation/vision_node.py to vision_node.cpython-310.pyc
+byte-compiling /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/navigation/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/navigation/exploration_node.py to exploration_node.cpython-310.pyc
+byte-compiling /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/irc_rover/sensors/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/share/ament_index
+creating /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/share/ament_index/resource_index
+creating /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/share/ament_index/resource_index/packages
+copying resource/IRC_ROVER -> /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/share/ament_index/resource_index/packages
+copying package.xml -> /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/share/IRC_ROVER
+running install_egg_info
+Copying build/IRC_ROVER/IRC_ROVER.egg-info to /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/python3.10/site-packages/IRC_ROVER-0.0.0-py3.10.egg-info
+running install_scripts
+Installing exploration_node script to /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/IRC_ROVER
+Installing vision_node script to /home/shubh/ros2_ws/src/irc_rover/install/IRC_ROVER/lib/IRC_ROVER
+writing list of installed files to '/home/shubh/ros2_ws/src/irc_rover/build/IRC_ROVER/install.log'
