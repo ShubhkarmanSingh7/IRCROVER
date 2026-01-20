@@ -185,7 +185,6 @@ class RoverControl(QtWidgets.QMainWindow):
             
         self.publisher.publish(twist)
 
-    # ---- helper: set color ----
     def set_button_color(self, button, active=True):
         """Set button color: active=True -> blue, active=False -> normal."""
         if active:
@@ -193,22 +192,19 @@ class RoverControl(QtWidgets.QMainWindow):
         else:
             button.setStyleSheet("")
 
-    # ---- helper: flash when clicked ----
     def flash_button(self, button):
         """Short flash when mouse-clicked."""
         self.set_button_color(button, True)
         QtCore.QTimer.singleShot(200, lambda: self.set_button_color(button, False))
 
-    # ---- handle button clicks ----
     def on_button_click(self, direction):
         self.move_cmd(direction)
-        # flash color for click
         mapping = {"N": self.btn_n, "S": self.btn_s, "E": self.btn_e, "W": self.btn_w}
         btn = mapping.get(direction)
         if btn:
             self.flash_button(btn)
 
-    # ---- keyboard control (press) ----
+    # keyboard control (press)
     def keyPressEvent(self, event):
         key = event.key()
         key_map = {
@@ -224,7 +220,7 @@ class RoverControl(QtWidgets.QMainWindow):
         else:
             super().keyPressEvent(event)
 
-    # ---- keyboard control (release) ----
+    #  keyboard control (release) 
     def keyReleaseEvent(self, event):
         key = event.key()
         key_map = {
@@ -240,7 +236,7 @@ class RoverControl(QtWidgets.QMainWindow):
         else:
             super().keyReleaseEvent(event)
 
-    # ---- interpret held keys (multi-direction) ----
+    # interpret held keys (multi-direction)
     def handle_multi_direction(self):
         dirs = self.active_keys
 
@@ -297,3 +293,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
