@@ -25,11 +25,6 @@ class ExplorationNode(Node):
         # 1. Check for obstacles in front
         # 2. If clear, move forward
         # 3. If obstacle, turn
-
-        # Assuming the scan data is ordered from right to left, with center at index len/2
-        # This depends on the Lidar configuration. 
-        # For a 360 lidar, usually 0 is front, but let's assume standard ROS convention where front is center of array if it's not 360 or 0 if it is.
-        # Let's assume a simple case: check a range of indices in the middle.
         
         ranges = msg.ranges
         num_readings = len(ranges)
