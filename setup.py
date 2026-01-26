@@ -2,7 +2,7 @@ import os
 from glob import glob
 from setuptools import find_packages, setup
 
-package_name = 'IRC_ROVER'
+package_name = 'irc_rover'
 
 setup(
     name=package_name,
