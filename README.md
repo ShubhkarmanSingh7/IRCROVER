@@ -1,6 +1,6 @@
-# IRCROVER (ROS 2 Rover Stack) - Beginner Friendly Guide
+# IRCROVER (ROS 2 Rover Stack)
 
-This repository is a ROS 2 Python package for a rover project that combines:
+This repository is a ROS2 Python package for a rover project that combines:
 
 - sensor-driven navigation nodes,
 - a GUI base station,
@@ -16,7 +16,7 @@ If you are new to ROS 2, this README explains what each folder/file does and how
 `irc_rover` is an `ament_python` ROS 2 package.  
 It includes:
 
-- **Autonomous exploration logic** using LiDAR (`/scan`) -> velocity commands (`/cmd_vel`)
+- **Autonomous exploration logic** using Depth Camera (light scan) (`/scan`) -> velocity commands (`/cmd_vel`)
 - **Vision-based logic** using camera images -> velocity commands (`/cmd_vel`)
 - **GPS navigation logic** using GPS + IMU + obstacle flag -> velocity commands (`/cmd_vel`)
 - **Drive control listener** that receives `/cmd_vel` (currently a placeholder for real motor driver code)
